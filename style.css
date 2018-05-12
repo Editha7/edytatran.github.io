@@ -1,0 +1,61 @@
+
+.bold-big {
+font-weight: bold;
+front-size: 200px;
+
+
+}
+
+.kwadrat {
+   width:200px;
+    height:200px;
+    background-color: green;
+}
+
+.circle {
+    width:200px;
+     height:200px;
+     background-color:blue;
+     border-radius: 50% }
+
+     .romb {
+        width:200px;
+         height:200px;
+         background-color: yellow;
+         transform: rotate()
+     }
+
+     .box {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      
+      .logo {
+
+        background: rgb(128, 125, 125);
+        flex-basis: 100%;
+        height: 50px;
+         
+          
+
+      }
+      
+      .column-left {
+        background-image: none;
+          flex-basis: 100%;
+          
+        flex-basis: 30%;
+        min-height: 150px;
+      }
+      
+      .content {
+        flex-basis: 70%;
+        background: rgb(214, 162, 162);
+      }
+      
+      .footer {
+        flex-basis: 100%;
+        background: #792de2;
+        height: 50px;
+      }
+
